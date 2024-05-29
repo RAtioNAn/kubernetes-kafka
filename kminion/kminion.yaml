@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kminion
-        image: docker.io/redpandadata/kminion:v2.2.5@sha256:195cf8ed7b883e8246438a3918c60834c9f285bcd1dcd525e8ea834cb22106c7
+        image: docker.redpanda.com/redpandadata/kminion:v2.2.5@sha256:195cf8ed7b883e8246438a3918c60834c9f285bcd1dcd525e8ea834cb22106c7
         env:
         - name: TELEMETRY_HOST
           value: 0.0.0.0
